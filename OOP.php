@@ -78,11 +78,6 @@ return “{$this­>firstName}” .
 }
 
 }
-$Tree1 = new Tree();
-$Tree1­>firstName = “Sequioa”;
-$Tree1­>lastName = “Tree”;
-print “The tree’s name is {$Tree1­>getName()}.”;
-//The tree’s name is Sequioa Tree.
 
 class Squirrel {
 public $type = “different types of squirrels”;
@@ -95,11 +90,6 @@ return “{$this­>firstName}” .
 }
 
 }
-$Squirrel1 = new Squirrel();
-$Squirrel1­>firstName = “Squirrel”;
-$Squirrel1­>lastName = “Squirrel”;
-print “The squirrel’s fur is {$squirrel1­>getName()}.”;
-//The squirrel's fur is soft .
 
 class Acorn {
 public $name = “default name”;
@@ -112,6 +102,21 @@ return “{$this­>firstName}” .
 }
 
 }
+
+<!-- Example 6 -->
+
+$Tree1 = new Tree();
+$Tree1­>firstName = “Sequioa”;
+$Tree1­>lastName = “Tree”;
+print “The tree’s name is {$Tree1­>getName()}.”;
+//The tree’s name is Sequioa Tree.
+
+$Squirrel1 = new Squirrel();
+$Squirrel1­>firstName = “Squirrel”;
+$Squirrel1­>lastName = “Squirrel”;
+print “The squirrel’s fur is {$squirrel1­>getName()}.”;
+//The squirrel's fur is soft .
+
 $Acorn1 = new Acorn();
 $Acorn1­>firstName = “Brown”;
 $dog1­>lastName = “Acorn”;
