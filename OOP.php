@@ -64,6 +64,13 @@ public function myMethod( $argument, $another) {
 	// stuff
 }
 
+public function myMethod( $argument, $another) {
+	// stuff
+}
+public function myMethod( $argument, $another) {
+	// stuff
+}
+
 <!-- Example 5 -->
 
 class Tree {
@@ -72,8 +79,8 @@ public $color = “color”;
 public $sap = “sap”;
 public $leaves = 0;
 function getName() {
-return “{$this­>firstName}” .
-“{$this­>lastName}”;
+return “{$this­>name}” .
+“{$this­>color}”;
 
 }
 
@@ -85,8 +92,8 @@ public $color = “color”;
 public $gender = “female”;
 public $fur = "soft fur";
 function getName() {
-return “{$this­>firstName}” .
-“{$this­>lastName}”;
+return “{$this­>type}” .
+“{$this­>color}”;
 }
 
 }
@@ -97,8 +104,8 @@ public $color = “color”;
 public $taste = “taste”;
 public $size = "size";
 function getName() {
-return “{$this­>firstName}” .
-“{$this­>lastName}”;
+return “{$this­>name}” .
+“{$this­>color}”;
 }
 
 }
@@ -106,19 +113,20 @@ return “{$this­>firstName}” .
 <!-- Example 6 -->
 
 $Tree1 = new Tree();
-$Tree1­>firstName = “Sequioa”;
-$Tree1­>lastName = “Tree”;
-print “The tree’s name is {$Tree1­>getName()}.”;
-//The tree’s name is Sequioa Tree.
+$Tree1­>name = “Sequioa”;
+$Tree1­>color = “Red";
+print “The tree is a {$Tree1­>name()}.”;
+//The tree is a Sequioa.
 
 $Squirrel1 = new Squirrel();
-$Squirrel1­>firstName = “Squirrel”;
-$Squirrel1­>lastName = “Squirrel”;
-print “The squirrel’s fur is {$squirrel1­>getName()}.”;
-//The squirrel's fur is soft .
+$Squirrel1­>name = “Squirrel”;
+$Squirrel1­>color = “Squirrel”;
+print “The squirrel is brown {$squirrel1­>color()}.”;
+//The squirrel is brown.
 
 $Acorn1 = new Acorn();
-$Acorn1­>firstName = “Brown”;
-$dog1­>lastName = “Acorn”;
-print “The acorn is a {$Acorn1­>getName()}.”;
-//The acorn is a brown acorn.
+$Acorn1­>name = “Brown”;
+$Acorn1­>color = “Acorn”;
+print “The acorn is {$Acorn1­>color()}.”;
+//The acorn is brown.
+
