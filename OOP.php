@@ -177,3 +177,5 @@ return “{$this­>name}"
 “{$this­>taste}”;
 }
 }
+
+<!-- Example 8 -->
