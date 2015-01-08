@@ -130,3 +130,50 @@ $Acorn1­>color = “Acorn”;
 print “The acorn is {$Acorn1­>color()}.”;
 //The acorn is brown.
 
+<!-- Example 7 -->
+
+
+class Tree {
+public $name;
+public $color;
+public $sap;
+function __construct($title, $name, $color, $sap) {
+$this­>name = $name;
+$this­>color = $color;
+$this­>sap = $sap;
+}
+function getName() {
+return “{$this­>name}” .
+“{$this­>color}”;
+}
+}
+
+class Squirrel {
+public $type;
+public $color;
+public $fur;
+function __construct($title, $type, $color, $fur) {
+$this­>type = $type;
+$this­>color = $color;
+$this­>fur = $fur;
+}
+function getName() {
+return “{$this­>type}” .
+“{$this­>color}”;
+}
+}
+
+class Acorn {
+public $name;
+public $taste;
+public $size;
+function __construct($title, $name, $taste, $size) {
+$this­>name = $name;
+$this­>taste = $taste;
+$this­>size = $size;
+}
+function getName() {
+return “{$this­>name}"
+“{$this­>taste}”;
+}
+}
