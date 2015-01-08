@@ -179,3 +179,41 @@ return “{$this­>name}"
 }
 
 <!-- Example 8 -->
+
+<?php
+if (is_array(‘hello’))
+
+	<?php
+if (is_bool(‘hello’))
+	
+	<?php
+if (is_object(‘hello’))
+
+// Example 9
+
+	echo “It is a string”;
+else
+echo ‘It is not a string’;
+var_dump(is_array(‘XYZ’));
+var_dump(is_array(‘8008’));
+var_dump(is_array(123));
+var_dump(is_array(false));
+?>
+
+echo “It is a string”;
+else
+echo ‘It is not a string’;
+var_dump(is_bool(‘XYZ’));
+var_dump(is_bool(‘8008’));
+var_dump(is_bool(123));
+var_dump(is_bool(false));
+?>
+
+echo “It is a string”;
+else
+echo ‘It is not a string’;
+var_dump(is_bool(‘XYZ’));
+var_dump(is_bool(‘8008’));
+var_dump(is_bool(123));
+var_dump(is_bool(false));
+?>
