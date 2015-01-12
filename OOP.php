@@ -1,11 +1,5 @@
 <!-- Example 1 -->
 
-class Tree {
-	//body
-	//body
-	//body	
-
-}
 
 class Squirrel {
 	//body
@@ -200,7 +194,7 @@ var_dump(is_array(123));
 var_dump(is_array(false));
 ?>
 
-echo “It is a string”;
+	echo “It is a string”;
 else
 echo ‘It is not a string’;
 var_dump(is_bool(‘XYZ’));
@@ -209,11 +203,11 @@ var_dump(is_bool(123));
 var_dump(is_bool(false));
 ?>
 
-echo “It is a string”;
+	echo “It is a string”;
 else
 echo ‘It is not a string’;
-var_dump(is_bool(‘XYZ’));
-var_dump(is_bool(‘8008’));
-var_dump(is_bool(123));
-var_dump(is_bool(false));
+var_dump(is_object(‘XYZ’));
+var_dump(is_object(‘8008’));
+var_dump(is_object(123));
+var_dump(is_object(false));
 ?>

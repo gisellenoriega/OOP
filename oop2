@@ -1,0 +1,26 @@
+<?php
+
+class Tree {
+	public $isAlive = true;
+    public $type;
+    public $size;
+    public $age;
+
+}
+
+public function __construct($type, $size, $age) {
+              $this->type = $type;
+              $this->size = $size;
+              $this->age = $age;
+            }
+
+public function greet() {
+    return "Hello, I am a " . $this->size . " " . $this->type . ". Nice to meet you! :-)";
+}
+}
+
+ $me = new Tree('Sequioa', 'big', 10);
+
+   echo $me->greet(); 
+
+?>
