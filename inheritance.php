@@ -22,10 +22,20 @@ class iPod {
 }
 
 class size extends gigabytes {
-	function __construct($Name, $frontcamera, $doublesidedcamera, $color, $generation)
-			parent::__construct($Name, $frontcamera, $doublesidedcamera, $color, $generation)
-	function hello() {
-	return $this->size;
+	function __construct($Name, $frontcamera, $doublesidedcamera, $color, $generation){
+			parent:: __construct($Name, $frontcamera, $doublesidedcamera, $color, $generation);
+	$this->generation = $generation;
+	}
+	function greet() {
+		return $this->color
+
+function __construct($Name, $frontcamera, $doublesidedcamera, $color, $generation){
+			parent:: __construct($Name, $frontcamera, $doublesidedcamera, $color, $generation);
+	$this->color = $color;
+	}
+
+	function greet() {
+		return $this->color
 	}
 }
 
